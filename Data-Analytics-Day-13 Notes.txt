@@ -1,0 +1,47 @@
+1️⃣ Data Warehousing Basics:
+=======================
+What it is: A data warehouse is a centralized system where data from multiple sources is stored for analysis and reporting.
+
+Key idea: It’s optimized for querying and analytics, not for transaction processing.
+
+Example: A retail chain collects daily sales, inventory, and customer data from different stores, storing them in a data warehouse like Snowflake for analysis.
+
+
+2️⃣ OLTP vs OLAP:
+==============
+OLTP (Online Transaction Processing): Handles day-to-day operations (inserts, updates, deletes) quickly.
+
+OLAP (Online Analytical Processing): Handles large-scale data analysis and complex queries.
+
+Example:
+
+OLTP: Booking a train ticket online.
+
+OLAP: Analyzing last year’s ticket sales trends.
+
+
+3️⃣ Dimensional Modeling:
+=====================
+Concept: A method for designing databases to support business queries efficiently.
+
+Types: Star Schema, Snowflake Schema.
+
+Example: A sales data warehouse where Fact Table contains sales amounts, and Dimension Tables store product, location, and time details.
+
+
+4️⃣ ETL Process (Extract, Transform, Load):
+=================================
+Extract: Pull data from source systems.
+
+Transform: Clean and convert data into a suitable format.
+
+Load: Store data into the warehouse.
+
+Example: A company pulling CRM customer data (Extract), fixing missing phone numbers (Transform), and storing it in BigQuery (Load).
+
+
+5️⃣ Data Warehouse Tools Overview:
+============================
+Examples: Snowflake, Amazon Redshift, Google BigQuery, Microsoft Azure Synapse.
+
+Why important: They provide fast, scalable, and cost-effective analytics capabilities.
